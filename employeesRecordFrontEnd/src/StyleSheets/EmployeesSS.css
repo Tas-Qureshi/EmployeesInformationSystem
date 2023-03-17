@@ -1,0 +1,30 @@
+
+.employees__header{
+ display: flex;
+ flex-wrap : column;
+ justify-content:  space-between;
+ margin-top : 40px;
+}
+ .emmployees-btn{
+  background-color: rgb(190, 208, 215);
+   
+  height: 40px;
+  margin-left: 25px; 
+   margin-top: 15px;
+   margin-top: 65px;
+
+}
+/* .employees-container{
+  display: flex;
+  align-self:self-start;
+  width: 100%;
+  top:50px;
+
+}  */
+.employees-container__table-search-input{
+  height: 40px;
+  border-radius: 10px;
+  margin-right: 25px; 
+   margin-top: 65px;
+   text-align: center;
+}

@@ -1,0 +1,30 @@
+.employees__table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+  }
+  
+  .employees__table td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    color: rgb(143, 108, 108);
+}
+
+tr:nth-child(odd) {
+    background-color: #41415b5f;
+}
+
+  
+  .employees{
+    margin-top: -40px;
+    padding-top: 0px;
+  }
+
+  .employees__table__delete{
+    background-color: rgb(202, 179, 179);
+  }
