@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/salt-dev/HackDayProject/EmployeesRecordProject/employeesRecord.Api/employeesRecord.Api.csproj": {}
+    "/Users/salt-dev/HackDayProject/EmployeesManagementSystem/employeesRecord.Api/employeesRecord.Api.csproj": {}
   },
   "projects": {
-    "/Users/salt-dev/HackDayProject/EmployeesRecordProject/employeesRecord.Api/employeesRecord.Api.csproj": {
+    "/Users/salt-dev/HackDayProject/EmployeesManagementSystem/employeesRecord.Api/employeesRecord.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/salt-dev/HackDayProject/EmployeesRecordProject/employeesRecord.Api/employeesRecord.Api.csproj",
+        "projectUniqueName": "/Users/salt-dev/HackDayProject/EmployeesManagementSystem/employeesRecord.Api/employeesRecord.Api.csproj",
         "projectName": "employeesRecord.Api",
-        "projectPath": "/Users/salt-dev/HackDayProject/EmployeesRecordProject/employeesRecord.Api/employeesRecord.Api.csproj",
+        "projectPath": "/Users/salt-dev/HackDayProject/EmployeesManagementSystem/employeesRecord.Api/employeesRecord.Api.csproj",
         "packagesPath": "/Users/salt-dev/.nuget/packages/",
-        "outputPath": "/Users/salt-dev/HackDayProject/EmployeesRecordProject/employeesRecord.Api/obj/",
+        "outputPath": "/Users/salt-dev/HackDayProject/EmployeesManagementSystem/employeesRecord.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/salt-dev/.nuget/NuGet/NuGet.Config"

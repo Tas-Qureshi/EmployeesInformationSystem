@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zu1ngRaS5oz4OG6+kYaYJMhIbFd48CKpmmHR4jRtms8cW0OeGv4nRbe1a1tiT1jFiBni/hYEQBIYhtVH9qbxQg==",
+  "dgSpecHash": "MiNJ6IhSu/tX8tmnyhjHrOyctWgQ8OHzNfq3myXcWEIS9Q7S4eqLvufWTCFYU2zkwrEAXljYw5DDx7ph6JQCIQ==",
   "success": true,
-  "projectFilePath": "/Users/salt-dev/HackDayProject/EmployeesRecordProject/employeesRecord.Api/employeesRecord.Api.csproj",
+  "projectFilePath": "/Users/salt-dev/HackDayProject/EmployeesManagementSystem/employeesRecord.Api/employeesRecord.Api.csproj",
   "expectedPackageFiles": [
     "/Users/salt-dev/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/salt-dev/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",

@@ -35,6 +35,18 @@ if (app.Environment.IsDevelopment())
                   .AllowAnyHeader();  //set the allowed origin
       });
 }
+if(app.Environment.IsProduction())
+{
+ app.UseSwagger();
+    app.UseSwaggerUI();
+
+    app.UseCors(policy =>
+      {
+          policy.AllowAnyOrigin()
+                  .AllowAnyMethod()
+                  .AllowAnyHeader();  //set the allowed origin
+      });
+}
 
 app.UseHttpsRedirection();
 
