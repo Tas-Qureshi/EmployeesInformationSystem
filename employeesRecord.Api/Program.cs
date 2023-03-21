@@ -12,10 +12,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ApplicationDbContext") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContext' not found.")));
-// builder.Services.AddControllers().AddJsonOptions(x =>
-//                 x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
+// builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    // options.UseSqlServer(builder.Configuration.GetConnectionString("ApplicationDbContext") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContext' not found.")));
+builder.Services.AddControllers().AddJsonOptions(x =>
+                x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 
 var app = builder.Build();
 // using (var scope = app.Services.CreateScope())
@@ -25,18 +25,18 @@ var app = builder.Build();
 // }
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
+// if (app.Environment.IsDevelopment())
+// {
+//     app.UseSwagger();
+//     app.UseSwaggerUI();
 
-    app.UseCors(policy =>
-      {
-          policy.AllowAnyOrigin()
-                  .AllowAnyMethod()
-                  .AllowAnyHeader();  //set the allowed origin
-      });
-}
+//     app.UseCors(policy =>
+//       {
+//           policy.AllowAnyOrigin()
+//                   .AllowAnyMethod()
+//                   .AllowAnyHeader();  //set the allowed origin
+//       });
+// }
 
  app.UseSwagger();
     app.UseSwaggerUI();
