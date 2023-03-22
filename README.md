@@ -9,7 +9,3 @@ The application is capable of maintaining all basic information regarding the em
 - React
 - TypeScript
 
-"ConnectionStrings": {
-    "ApplicationDbContext" : "Server=localhost,1433;Database=EmployeesRecord;User Id=sa;Password=Password_2_Change_4_Real_Cases_&;TrustServerCertificate=True;"
-
-  }
