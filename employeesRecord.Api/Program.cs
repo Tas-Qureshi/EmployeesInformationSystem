@@ -20,11 +20,14 @@ builder.Services.AddControllers().AddJsonOptions(x =>
                 x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 
 var app = builder.Build();
+// new files------------
 app.UseDefaultFiles();
 
 app.UseStaticFiles();
 
 app.UseRouting();
+// ------------
+
 // using (var scope = app.Services.CreateScope())
 // {
 //     var services = scope.ServiceProvider;

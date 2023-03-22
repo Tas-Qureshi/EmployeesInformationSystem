@@ -10,11 +10,11 @@ using Microsoft.EntityFrameworkCore;
             : base(options)
         {
         }
-protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-   {
-       var configuration = new ConfigurationBuilder().AddUserSecrets<Program>().Build();
-       optionsBuilder.UseSqlServer(configuration.GetSection("ConnectionStrings:ApplicationDbContext").Value);
-   }
+// protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+//    {
+//        var configuration = new ConfigurationBuilder().AddUserSecrets<Program>().Build();
+//        optionsBuilder.UseSqlServer(configuration.GetSection("ConnectionStrings:ApplicationDbContext").Value);
+//    }
 
         public DbSet<Employee> Employee { get; set; } = default!;
 
