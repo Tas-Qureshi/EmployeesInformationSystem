@@ -29,7 +29,7 @@ export const AddEmployee: FC<addEmployeeProps> = ({ backToEmployeesList }) => {
   });
 
   const onSubmit = async (formData: any) => {
-    await axios.post('http://localhost:5015/api/Employees', formData)
+    await axios.post('https://employeeinfomarionsystem.azurewebsites.net/api/Employees', formData)
       .then(
         backToEmployeesList, 
       )

@@ -44,7 +44,7 @@ export const EditEmployee: FC<editEmpProps> = ({ empData, backToEmployeesList })
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(updatedEmployee)
         };
-        await fetch(`http://localhost:5015/api/Employees/${empData.id}`, requestOptions)
+        await fetch(`https://employeeinfomarionsystem.azurewebsites.net/api/Employees/${empData.id}`, requestOptions)
             .then( backToEmployeesList )
     }
     return (
